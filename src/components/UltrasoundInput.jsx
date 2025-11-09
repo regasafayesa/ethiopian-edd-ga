@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { toGregorian, toEthiopian } from 'ethiopian-date';
+import { toEthiopian } from 'ethiopian-date';
 
 export default function UltrasoundInput({ onCalculate }) {
   const [previousVisitDate, setPreviousVisitDate] = useState({ year: '', month: '', day: '' });
